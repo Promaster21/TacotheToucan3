@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Asset/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Asset/styles.css">
+</head>
+
+<body style="background-color:cyan;background-image: linear-gradient(to right, cyan , ORANGE)">
+  <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  topnav" style="position: fixed; top: 0; z-index: 3;">
+	  <a href="Index.html" class="logo" style="font-family:cursive">
+      <i class="fa fa-tree fa-lg" aria-hidden="true"> TtT</i></a>
+     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 topnav">
+      <div class=" topnav" id="myTopnav">
+        <a href="Index.html" >Home</a>
+        <a href="WhereToWarch.html">Where to Watch</a>
+        <a href="About.html">Characters</a>
+		<a href="#CVTSA" class="active">CVTSA</a>
+    <a href="Games.html">Fun Activities</a>
+    <a href="TacotheToucanGame/index.html">Games</a>
+        <a href="MagicMoments.html">Works Cited</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+<br>
+<br>
+<br>
+<h1 class="m-7 text-center">What is TSA? </h1>
+
+ 
+  
+
+  
+  <div class="col-lg-6">
+	<p class="h3"> CVTSA is an engaging club where students learn new technology and building skills. Some events include, Website Design, Biotechnology, and others. There are many STEM jobs across the world and TSA is the first step. CVTSA includes with an officer team including a President, Vice-President, Secretary, Seregent-in-Arms, Treasurer, Parliement, and Historian. Shubham Gupta is our President, while Vikram Kakaria is our Vice- President.
+	</p>  
+    </div>
+	<div class="col-lg-5" style="margin: 2rem;">
+		<img src="Asset/img/tsa.png" height="250" width="500">
+	</div>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background-color:yellow;background-image: linear-gradient(to right, yellow , GREEN)">
+	
+<h3>More Questions?</h3>
+
+<div class="container">
+  <form style="
+    padding-bottom: 32px;
+">
+    <label for="fname">First Name (not required:anonymous)</label>
+    <input type="text" id="fname" name="firstname" placeholder="John">
+
+    <label for="lname">Last Name (not required:anonymous)</label>
+    <input type="text" id="lname" name="lastname" placeholder="Doe">
+
+    <label for="zone">Time Zone</label>
+    <select id="timezone" name="time-zone">
+      <option value="eastern">Eastern</option>
+      <option value="central">Central</option>
+      <option value="mountain-daylight">Mountain Daylight</option>
+      <option value="mountain-standard">Mountain Standard</option>
+      <option vaule="pacific">Pacific</option>
+      <option vaule="alaska">Alaska</option>
+      <option vaule="hawaii">Hawaii-Aleutian Standard</option>
+    </select>
+	<label for="mail">Email</label>
+    
+     <input type="text" id="email" name="emailme" placeholder="Type email here">
+    <label for="subject">What is your question?</label>
+    <textarea id="subject" name="subject" placeholder="My question is..." style="height:150px"></textarea>
+
+    <input type="submit" onClick="Submit()">
+  </form>
+</div>
+	</div>
+ <br>
+<br>
+	<br>
+  <div style="position: fixed; left: 0; bottom: 0; width: 100%; background-color:blanchedalmond; color: black; text-align: center;">
+    <p>CVTSA All Rights Reserved</p>
+  </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+	  
+	  function Submit() {
+	 alert("Thank you for your submission!!!");
+	  window.location.href="Index.html"
+	  }
+  </script>
+
+</body>
+
+</html>
